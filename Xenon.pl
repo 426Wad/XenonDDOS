@@ -15,7 +15,7 @@ print <<EOTEXT;
             d8'  `888b   888    .o  888   888  `88b  d88'  888   888  
           o888o  o88888o `Y8bod8P' o888o o888o  `Y8bd8P'  o888o o888o 
                                                                        
-Welcome to Xen0n Apache Attacker
+Welcome to Xen0n Apache Attacker BY: Gen
  
 EOTEXT
  
@@ -32,7 +32,6 @@ unless ($host) {
     print "Test:\n\n\tperl $0 -dns [www.example.com] -test\n";
     print "Usage:\n\n\tperl $0 -dns [www.example.com] -port 80 -timeout 100 -num 1000 -tcpto 5 -xenon\n";
  
-    print "\n\temail: xenon.sec@ gmail.com\n";
 print "\n";
     exit;
 }
